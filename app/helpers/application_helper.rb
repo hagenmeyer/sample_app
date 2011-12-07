@@ -1,6 +1,6 @@
 module ApplicationHelper
   def logo
-    @logo = image_tag("logo.png")
+    @logo = image_tag("logo.png", :alt => "Sample App", :class => "round")
   end
   # Return a title on a per-page basis.
   def title #title hier gleich aufruf einer funktion
